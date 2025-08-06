@@ -11,7 +11,7 @@ export const Navbar = () => {
       <div className="flex items-center gap-4">
         {/* GitHub Link */}
         <a
-          href="https://github.com/yourusername/fake-news-detector"
+          href="https://github.com/devwithmohit/Fake-News-Detector"
           target="_blank"
           rel="noopener noreferrer"
           className="text-sm text-gray-600 hover:text-blue-500 dark:text-gray-300"
