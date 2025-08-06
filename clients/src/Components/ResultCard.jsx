@@ -28,3 +28,4 @@ export const ResultCard = ({ verdict, confidence }) => {
 };
 
 export default ResultCard;
+

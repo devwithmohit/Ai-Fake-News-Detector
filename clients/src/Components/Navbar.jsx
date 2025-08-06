@@ -1,6 +1,3 @@
-import React from 'react';
-// example import
-
 export const Navbar = () => {
   return (
     <nav className="w-full shadow-md bg-white dark:bg-gray-900 px-4 py-3 flex justify-between items-center">
@@ -34,7 +31,7 @@ export const Navbar = () => {
 // Dummy theme toggle (can be upgraded with useDarkMode hook)
 const toggleTheme = () => {
   const html = document.documentElement;
-  html.classList.toggle('dark');
+  html.classList.toggle("dark");
 };
 
 export default Navbar;

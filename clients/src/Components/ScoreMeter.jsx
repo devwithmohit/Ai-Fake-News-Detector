@@ -1,5 +1,3 @@
-import React from "react";
-
 export const ScoreMeter = ({ confidence }) => {
   const getBarColor = (value) => {
     if (value >= 80) return "bg-green-500";
