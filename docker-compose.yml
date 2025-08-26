@@ -1,0 +1,23 @@
+version: '3.8'
+services:
+    backend:
+        image: mohitsingh666/ai-news-backend:01
+        container_name: backend
+        ports:
+          - "5000:5000"
+        networks:
+          - ai-news
+
+    frontend:
+        image: mohitsingh666/ai-news-frontend:01
+        container_name: frontend
+        ports:
+          - "80:80"
+        depends_on:
+          - backend
+        networks:
+          - ai-news
+
+networks:
+  ai-news:
+   driver: bridge
